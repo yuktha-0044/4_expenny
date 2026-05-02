@@ -10,7 +10,7 @@ export const metadata = {
   description: "Track all your subscription analytics!",
 };
 
-export default function RootLayout({ children }) {
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   const header = (
     <header>
       <div>
